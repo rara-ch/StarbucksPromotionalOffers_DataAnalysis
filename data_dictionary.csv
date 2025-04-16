@@ -1,0 +1,19 @@
+Table,Field,Description
+offers,,Details on the offers sent to customers during the 30-day period
+offers,offer_id,Unique offer ID (primary key)
+offers,offer_type,"type of offer: bogo (buy one, get one), discount, or informational"
+offers,difficulty,minimum amount required to spend in order to be able to complete the offer
+offers,reward,reward (in dollars) obtained by completing the offer
+offers,duration,days a customer has to complete the offer once they have received it
+offers,channels,list of marketing channels used to send the offer to customers
+customers,,Demographic data for each member
+customers,customer_id,Unique customer ID (primary key)
+customers,became_member_on,Date when the customer created their account (yyyymmdd)
+customers,gender,"Customer's gender: (M)ale, (F)emale, or (O)ther"
+customers,age,Customer's age
+customers,income,"Customer's estimated annual income, in USD"
+events,,"Data on customer activity, with records for transactions, offers received, offers viewed, and offers completed"
+events,customer_id,Customer the event is associated with  (foreign key)
+events,event,"Description of the event (transaction, offer received, offer viewed, or offer completed)"
+events,value,"Dictionary of values associated with the event (amount for transactions, offer_id for offers received and viewed, and offer_id & reward for offers completed)."
+events,time,Hours passed in the 30-day period (starting at 0)
