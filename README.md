@@ -2,20 +2,20 @@
 This is a data analyst portfolio project that aims to explore how different customer demographics engage with Starbucks promotional offers and analyse the effectiveness of various channels for viewing offers. My end goal is to use data storytelling and visualisation to provide Starbucks actionable insights to improve offer engagement and distribution.
 
 ## Data
-The [data](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data) was sourced from kaggle and contains three tables named offers (portfolio.csv), customers (profile.csv), and events (transcript.csv). The data dictionary for all three tables can be found [here](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/data/starbucks_data_dictionary.csv).
+The [data](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data) was sourced from Kaggle and contains three tables named offers (portfolio.csv), customers (profile.csv), and events (transcript.csv). The data dictionary for all three tables can be found [here](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/data/starbucks_data_dictionary.csv).
 
 ## Objectives
 - Explore how different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
 - Analyse the effectiveness of various channels for viewing offers.
 
 ## Key Insights
-- Offers that were distributed through the social channel were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through the social channel.
+- Offers that were distributed through social media were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through social media.
 - A higher proportion of the offers were sent to males compared to females although females completed offers at a higher rate.
-- Younger members (20s and 30s) engage with offers at the lowest rate out of any age group, especially when the offer is not distributed through the social channel.
-- Although BOGO offers are easier and more rewarding than discount offers, discount offers were completed at a 12% higher rate than BOGO offers. However, discount offers went for 2.5 days longer than BOGO offers on average.
+- Younger members (20s and 30s) engage with offers at the lowest rate out of any age group, especially when the offer is not distributed on social media.
+- Although buy-one-get-one (BOGO) offers are easier and more rewarding than discount offers, discount offers were completed at a 12% higher rate than BOGO offers. However, discount offers went for 2.5 days longer than BOGO offers on average.
 
 ## Key Recommendations
-- Prioritise distributing offers through the social channel to ensure offers are seen by the maximum number of members and to increase engagement of the younger demographic.
+- Prioritise distributing offers through social media to ensure offers are seen by the maximum number of members and to increase engagement of the younger demographic.
 - Use targeted advertising campaigns to attract more female members.
 - Release more BOGO and discount offers that go for the same duration so we can more accurately assess the success of each offer type.
 
@@ -40,17 +40,17 @@ I decided that for the main objectives, I would create an interactive dashboard 
 ### 2. Cleaning and Wrangling
 [StarbucksPromotionalOffers_DataCleaning.ipynb](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_DataCleaning.ipynb)
 
-Since some columns were in the form of lists and dictionaries, I decided to use Python to clean and wrangle the data. I cleaned the offers and customers tables before cleaning the events table and splitting it into four seperate tables for each type of event. These were offers_received, offers_viewed, offers completed, and transactions. I then exported these tables into MySQL so I could more easily minipulate them.
+Since some columns were in the form of lists and dictionaries, I decided to use Python to clean and wrangle the data. I cleaned the offers and customers tables before cleaning the events table and splitting it into four separate tables for each type of event. These were offers_received, offers_viewed, offers completed, and transactions. I then exported these tables into MySQL so I could more easily manipulate them.
 ### 3. MySQL Analysis
 [StarbucksPromotionalOffers_FunnelViewsCreation.sql](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_FunnelViewsCreation.sql)
 
 [StarbucksPromotionalOffers_EDA.sql](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_EDA.sql)
 
-Upon my initial analysis in MySQL, I found that customers could receive, view, and complete the offer at any stage multiple times. I also found that customers could complete an offer without viewing it. Therefore, I restricted my analysis to focus on only the completed offers that were viewed in order to ensure that I analysed how offers brought people into Starbucks. I also resticted my analysis to the customer level. In other words, I ignored how many times a customer received, viewed, or completed a single offer and instead only focuses on whether they did complete the stage or not. I then joined the offers_received, offers_viewed, offers_completed tables to create a funnel on the customer and offer level. I then did some exporatory data analysis on different customer dimensions and the funnel to find any actionble insights.
+Upon my initial analysis in MySQL, I found that customers could receive, view, and complete the offer at any stage multiple times. I also found that customers could complete an offer without viewing it. Therefore, I restricted my analysis to focus on only the completed offers that were viewed in order to ensure that I analysed how offers brought people into Starbucks. I also restricted my analysis to the customer level. In other words, I ignored how many times a customer received, viewed, or completed a single offer and instead only focuses on whether they did complete the stage or not. I then joined the offers_received, offers_viewed, offers_completed tables to create a funnel on the customer and offer level. I then did some exploratory data analysis on different customer dimensions and the funnel to find any actionable insights.
 ### 4. Tableau Dashboard
 [Starbucks  Promotional Offers Dashboard](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-I created an interactive dashboard in Tableau for main objectives.
+I created an interactive dashboard in Tableau for main objectives. Please understand the `difficulty` is the minimum spend to achieve the reward and the `reward` is the amount saved. 
 
 ![Dashboard](StarbucksOffersFunnel_Dashboard.png)
 
