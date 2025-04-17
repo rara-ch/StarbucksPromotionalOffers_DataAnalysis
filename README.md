@@ -48,11 +48,11 @@ Since some columns were in the form of lists and dictionaries, I decided to use 
 
 Upon my initial analysis in MySQL, I found that customers could receive, view, and complete the offer at any stage multiple times. I also found that customers could complete an offer without viewing it. Therefore, I restricted my analysis to focus on only the completed offers that were viewed in order to ensure that I analysed how offers brought people into Starbucks. I also resticted my analysis to the customer level. In other words, I ignored how many times a customer received, viewed, or completed a single offer and instead only focuses on whether they did complete the stage or not. I then joined the offers_received, offers_viewed, offers_completed tables to create a funnel on the customer and offer level. I then did some exporatory data analysis on different customer dimensions and the funnel to find any actionble insights.
 ### 4. Tableau Dashboard
-[StarbucksPromotionalOffers Dashboard](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-![Starbucks Promotional Offers Dashboards](C:\Users\chitk\OneDrive\Documents\Data_Analytics_Portfolio\Starbucks_Rewards_Offers\Dashboard_Images)
+[Starbucks  Promotional Offers Dashboard](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 I created an interactive dashboard in Tableau for main objectives.
+
+![Dashboard](StarbucksOffersFunnel_Dashboard.png)
 
 ### 5. Report
 This Markdown file is my report.
