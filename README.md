@@ -1,12 +1,18 @@
 # Starbucks Promotional Offers Data Analysis
-This is a data analyst portfolio project that aims to explore how different customer demographics engage with Starbucks promotional offers and analyse the effectiveness of various channels for viewing offers. My end goal is to use data storytelling and visualisation to provide Starbucks actionable insights to improve offer engagement and distribution.
+## Objectives
+Starbucks is a global coffee shop chain, founded in 1971 in the United States. The company released anonymised data on its events, customers members, and promotional offers. 
+This project investigates this data in order to uncover critical insights that will improve Starbucks' marketing success. Specifically, insights and recommendations are provided in the following areas:
+- How different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
+- The effectiveness of different distribuion channels in exposing members to offers.
+
+An interactive Tableau Dashboard can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
+The Python code utilised to clean the raw data can be found [here](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_DataCleaning.ipynb).
 
 ## Data
-The [data](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data) was sourced from Kaggle and contains three tables named offers (portfolio.csv), customers (profile.csv), and events (transcript.csv). The data dictionary for all three tables can be found [here](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/data/starbucks_data_dictionary.csv).
+The [data](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data) was sourced from Kaggle.
 
-## Objectives
-- Explore how different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
-- Analyse the effectiveness of various channels for viewing offers.
+![ERM](data/StarbucksPromotionalOffers_RawERM.png)
 
 ## Key Insights
 - Offers that were distributed through social media were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through social media.
@@ -47,10 +53,6 @@ Since some columns were in the form of lists and dictionaries, I decided to use 
 [StarbucksPromotionalOffers_EDA.sql](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_EDA.sql)
 
 Upon my initial analysis in MySQL, I found that customers could receive, view, and complete the offer at any stage multiple times. I also found that customers could complete an offer without viewing it. Therefore, I restricted my analysis to focus on only the completed offers that were viewed in order to ensure that I analysed how offers brought people into Starbucks. I also restricted my analysis to the customer level. In other words, I ignored how many times a customer received, viewed, or completed a single offer and instead only focuses on whether they did complete the stage or not. I then joined the offers_received, offers_viewed, offers_completed tables to create a funnel on the customer and offer level. I then did some exploratory data analysis on different customer dimensions and the funnel to find any actionable insights.
-### 4. Tableau Dashboard
-[Starbucks  Promotional Offers Dashboard](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-I created an interactive dashboard in Tableau for main objectives. Please understand the `difficulty` is the minimum spend to achieve the reward and the `reward` is the amount saved. 
 
 ![Dashboard](StarbucksOffersFunnel_Dashboard.png)
 
