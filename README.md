@@ -17,7 +17,7 @@ The data source can be found [here](https://www.kaggle.com/datasets/ihormuliar/s
 
 The data dictionary can be found [here](data/starbucks_data_dictionary.csv).
 
-## Key Insights
+## Executive Summary
 - Offers that were distributed through social media were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through social media.
 - A higher proportion of the offers were sent to males compared to females although females completed offers at a higher rate.
 - Younger members (20s and 30s) engage with offers at the lowest rate out of any age group, especially when the offer is not distributed on social media.
