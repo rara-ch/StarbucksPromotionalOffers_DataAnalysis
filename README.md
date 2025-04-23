@@ -3,7 +3,7 @@
 Starbucks is a global coffee shop chain, founded in 1971 in the United States. The company released a total of 300K+ rows of anonymised data on its events, customers members, and promotional offers. 
 This project investigates this data in order to uncover critical insights that will improve Starbucks' marketing success. Specifically, insights and recommendations are provided in the following areas:
 - How different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
-- The effectiveness of different distribuion channels in exposing members to offers.
+- The effectiveness of different distribution channels in exposing members to offers.
 
 An interactive Tableau Dashboard can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
@@ -58,6 +58,3 @@ Since some columns were in the form of lists and dictionaries, I decided to use 
 [StarbucksPromotionalOffers_EDA.sql](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_EDA.sql)
 
 Upon my initial analysis in MySQL, I found that customers could receive, view, and complete the offer at any stage multiple times. I also found that customers could complete an offer without viewing it. Therefore, I restricted my analysis to focus on only the completed offers that were viewed in order to ensure that I analysed how offers brought people into Starbucks. I also restricted my analysis to the customer level. In other words, I ignored how many times a customer received, viewed, or completed a single offer and instead only focuses on whether they did complete the stage or not. I then joined the offers_received, offers_viewed, offers_completed tables to create a funnel on the customer and offer level. I then did some exploratory data analysis on different customer dimensions and the funnel to find any actionable insights.
-
-### 5. Report
-This Markdown file is my report.
