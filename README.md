@@ -1,6 +1,6 @@
 # Starbucks Promotional Offers Data Analysis
 ## Objectives
-Starbucks is a global coffee shop chain, founded in 1971 in the United States. The company released anonymised data on its events, customers members, and promotional offers. 
+Starbucks is a global coffee shop chain, founded in 1971 in the United States. The company released a total of 300K+ rows of anonymised data on its events, customers members, and promotional offers. 
 This project investigates this data in order to uncover critical insights that will improve Starbucks' marketing success. Specifically, insights and recommendations are provided in the following areas:
 - How different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
 - The effectiveness of different distribuion channels in exposing members to offers.
@@ -22,6 +22,7 @@ The data source can be found [here](https://www.kaggle.com/datasets/ihormuliar/s
 - Although buy-one-get-one (BOGO) offers are easier and more rewarding than discount offers, discount offers were completed at a 12% higher rate than BOGO offers. However, discount offers went for 2.5 days longer than BOGO offers on average.
 
 Below is the Tableau dashboard, which can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
 ![Dashboard](StarbucksOffersFunnel_Dashboard.png)
 
 ## Key Recommendations
