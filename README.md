@@ -10,9 +10,12 @@ An interactive Tableau Dashboard can be found [here](https://public.tableau.com/
 The Python code utilised to clean the raw data can be found [here](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_DataCleaning.ipynb).
 
 ## Data
-The [data](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data) was sourced from Kaggle.
-
 ![ERM](data/StarbucksPromotionalOffers_RawERM.png)
+Note that `difficulty` is the minimum required spend amount to get the `reward` (amount of money saved)
+
+The data source can be found [here](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data).
+
+The data dictionary can be found [here](data/starbucks_data_dictionary.csv).
 
 ## Key Insights
 - Offers that were distributed through social media were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through social media.
