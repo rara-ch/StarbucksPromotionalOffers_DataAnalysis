@@ -21,6 +21,9 @@ The data source can be found [here](https://www.kaggle.com/datasets/ihormuliar/s
 - Younger members (20s and 30s) engage with offers at the lowest rate out of any age group, especially when the offer is not distributed on social media.
 - Although buy-one-get-one (BOGO) offers are easier and more rewarding than discount offers, discount offers were completed at a 12% higher rate than BOGO offers. However, discount offers went for 2.5 days longer than BOGO offers on average.
 
+Below is the Tableau dashboard, which can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+![Dashboard](StarbucksOffersFunnel_Dashboard.png)
+
 ## Key Recommendations
 - Prioritise distributing offers through social media to ensure offers are seen by the maximum number of members and to increase engagement of the younger demographic.
 - Use targeted advertising campaigns to attract more female members.
@@ -54,8 +57,6 @@ Since some columns were in the form of lists and dictionaries, I decided to use 
 [StarbucksPromotionalOffers_EDA.sql](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_EDA.sql)
 
 Upon my initial analysis in MySQL, I found that customers could receive, view, and complete the offer at any stage multiple times. I also found that customers could complete an offer without viewing it. Therefore, I restricted my analysis to focus on only the completed offers that were viewed in order to ensure that I analysed how offers brought people into Starbucks. I also restricted my analysis to the customer level. In other words, I ignored how many times a customer received, viewed, or completed a single offer and instead only focuses on whether they did complete the stage or not. I then joined the offers_received, offers_viewed, offers_completed tables to create a funnel on the customer and offer level. I then did some exploratory data analysis on different customer dimensions and the funnel to find any actionable insights.
-
-![Dashboard](StarbucksOffersFunnel_Dashboard.png)
 
 ### 5. Report
 This Markdown file is my report.
