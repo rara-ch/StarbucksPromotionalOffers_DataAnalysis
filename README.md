@@ -21,7 +21,12 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 ### Performance Trends:
 - **Each occassion offers were sent out, the total number of offers completed increased by an average of 1192 from the day before**. Offers were sent out on 6 occassions. Specifically, on days 0, 7, 14, 17, and 21. Each offer was sent out an average of 1271 times per occassion with little variance.
 - **Although highly volitile, offers were completed at an increasing statistically significant (p = 0.04) rate of 26.5 more completions per day throughout the 30 day period**. Since other possible causes remained unchanged, this increase is most likely due to offers being sent out more frequently in the later half of the month than in the first half of the month. As stated above, days that offers were sent out increased the number of offers completed by an average of 1192 compared to the day before. Therefore, completions increased significantly on days offers were released before trailing off significantly in the coming days.
+
+![OffersCompletedbyDay](ReportImages/OffersCompletedbyDay.png)
+
 - **Discount offers were completed more than BOGO (buy one, get one) offers by 2180 throughout the 30 day period**. This is likely because although BOGO offers would do better than discount offers in the short term (on release days), the number of BOGO offers completed reduced at a faster rate than discount offers completed in following days.
+
+![OffersCompletedbyOfferType](ReportImages/OffersCompletedbyOfferType.png)
 
 ### Distribution Effeciency:
 - Offers that were distributed through social media were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through social media.
