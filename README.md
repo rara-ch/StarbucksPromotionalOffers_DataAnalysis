@@ -29,9 +29,13 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 ![OffersCompletedbyOfferType](ReportImages/OffersCompletedbyOfferType.png)
 
 ### Distribution Effeciency:
-- Offers that were distributed through social media were viewed by almost all Starbucks’ members (94.5%). For comparison, roughly half (52.5%) of members viewed offers that were not distributed through social media.
+- **Offers that were distributed through social media were viewed at a rate of 94.5% Starbucks compared to a rate of 52.5% when not distributed through social media**.
 
 ![PercentageViewedOffers](ReportImages/PercentageViewedOffers.png)
+
+- This distinction is especially true for the company's younger demographic **(20s & 30s), who view offers at a rate of 96.3% when the offer is distributed through social media versus 32.9% when it is not**.
+
+![ReportImages/ViewedPercentageAgeSocialMedia](ReportImages/ViewedPercentageAgeSocialMedia.png)
 
 ### Customer Demographic Trends:
 - A higher proportion of the offers were sent to males compared to females although females completed offers at a higher rate.
