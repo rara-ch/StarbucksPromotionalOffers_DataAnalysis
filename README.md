@@ -26,6 +26,7 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 ## Insights
 ### Performance Trends:
 - **Each occassion offers were sent out, the total number of offers completed increased by an average of 1192 from the day before**. Offers were sent out on 6 occassions. Specifically, on days 0, 7, 14, 17, and 21. Each offer was sent out an average of 1271 times per occassion with little variance.
+
 - **Although highly volitile, offers were completed at an increasing statistically significant (p = 0.04) rate of 26.5 more completions per day throughout the 30 day period**. Since other possible causes remained unchanged, this increase is most likely due to offers being sent out more frequently in the later half of the month than in the first half of the month. As stated above, days that offers were sent out increased the number of offers completed by an average of 1192 compared to the day before. Therefore, completions increased significantly on days offers were released before trailing off significantly in the coming days.
 
 ![OffersCompletedbyDay](ReportImages/OffersCompletedbyDay.png)
@@ -52,6 +53,11 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 - The year a customer became a member and income both demonstrate no clear impact on customers' engagement with offers.
 
 ## Recommendations
-- Prioritise distributing offers through social media to ensure offers are seen by the maximum number of members and to increase engagement of the younger demographic.
-- Use targeted advertising campaigns to attract more female members.
-- Release more BOGO and discount offers that go for the same duration so we can more accurately assess the success of each offer type.
+Based on the uncovered insights, the following recommendations have been provided:
+- **Distributing offers through social media is essential**, especially if the company wants to target the young adult demographic. Offers distributed with social media get **viewed at a rate of 94.5% compared to 52.5%**. The offers that get viewed more, get completed more. Hence, to ensure optimisation of futere offers, they should be distributed through social media.
+  
+- **Females redeem offers at a 10% higher rate then males**. Therefore, the marketing team should consider a targeted campaign towards the female demographic to increase the number of female members. This would allow the company's offers to reach more females, who have a greater likelyhood of redeeming an offer.
+  
+- The biggest increases in offers redeemed occur the same days that offers are released, which is an **average increase of 1192**. Therefore, **one easy way to increase the amount of offers redeemed is to increase the amount of times offers are sent out**.
+  
+- BOGO offers increase sales in the short time while discount offers increase sales over time. **BOGO offers should be utilised to boost traffic on expected slow days**, while discount offers should be the default on average days.
