@@ -2,7 +2,7 @@
 ## Objectives
 Starbucks is a global coffee shop chain, founded in 1971 in the United States. The company released a total of 300K+ rows of anonymised data on its events, customers members, and promotional offers across a 30 day period. This project investigates this data in order to uncover critical insights that will improve Starbucks' marketing success. Specifically, insights and recommendations are provided in the following areas:
 
-- The performance of offers throghout the 30 day time period.
+- The performance of offers throughout the 30 day time period.
 - The effectiveness of different distribution channels in exposing members to offers.
 - How different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
 
