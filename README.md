@@ -1,8 +1,10 @@
 # Starbucks Promotional Offers Data Analysis
 ## Objectives
 Starbucks is a global coffee shop chain, founded in 1971 in the United States. The company released a total of 300K+ rows of anonymised data on its events, customers members, and promotional offers across a 30 day period. This project investigates this data in order to uncover critical insights that will improve Starbucks' marketing success. Specifically, insights and recommendations are provided in the following areas:
-- How different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
+
+- The performance of offers throghout the 30 day time period.
 - The effectiveness of different distribution channels in exposing members to offers.
+- How different customer demographics (e.g., age, income, gender, membership signup date) engage with offers.
 
 An interactive Tableau Dashboard can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
@@ -14,6 +16,10 @@ The Python code utilised to clean the raw data can be found [here](https://githu
 
 The data source can be found [here](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data).
 ## Executive Summary
+Throughout the 30 day period, completions steadily increased, likely because offers were sent out more frequently in the second half of the 30 day period. The variety of offers sent out and the rate that these offers were viewed remained consitent throughout. The most impactful attribute that increased the likelyhood of an offer being viewed was if it was distributed through social media or not. This impactfullness was especially apparent for the company's young adult demographic. Buy One, Get One (BOGO) offers were more successful than discount offers in the short term. However, the completion rate of BOGO offers reduced significantly quicker than Discount offers in the following days. 
+
+In terms of customer demographics, males and younger members engaged with offers at a lower rate than their respective demographic counterparts. The date that a customer became a member and their income level demonstrated no clear connection to how they engaged with offers.
+
 Below is the Tableau dashboard, which can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ![Dashboard](StarbucksOffersFunnel_Dashboard.png)
@@ -29,16 +35,18 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 ![OffersCompletedbyOfferType](ReportImages/OffersCompletedbyOfferType.png)
 
 ### Distribution Effeciency:
-- **Offers that were distributed through social media were viewed at a rate of 94.5% Starbucks compared to a rate of 52.5% when not distributed through social media**.
+- Offers that were **distributed through social media were viewed at a rate of 94.5%** compared to a **rate of 52.5% when not distributed through social media**.
 
 ![PercentageViewedOffers](ReportImages/PercentageViewedOffers.png)
 
-- This distinction is especially true for the company's younger demographic **(20s & 30s), who view offers at a rate of 96.3% when the offer is distributed through social media versus 32.9% when it is not**.
+- The impact of social media for distribution success is especially significant for the company's younger demographic **(20s & 30s), who view offers at a rate of 96.3% when the offer is distributed through social media versus 32.9% when it is not**.
 
 ![ReportImages/ViewedPercentageAgeSocialMedia](ReportImages/ViewedPercentageAgeSocialMedia.png)
 
 ### Customer Demographic Trends:
-- A higher proportion of the offers were sent to males compared to females although females completed offers at a higher rate.
+- On average, **Starbucks sends its offers to 38% more males compared to females**. This is despite the fact that **females engage with offers at a 10% higher rate than males**. Offers are viewed at a similar rate for both genders, indicating that females were more likely than males to redeem an offer after viewing it. 
+  
+  ![GenderOfferEngagement](ReportImages/GenderOfferEngagement.png)
 - Younger members (20s and 30s) engage with offers at the lowest rate out of any age group, especially when the offer is not distributed on social media.
 - Although buy-one-get-one (BOGO) offers are easier and more rewarding than discount offers, discount offers were completed at a 12% higher rate than BOGO offers. However, discount offers went for 2.5 days longer than BOGO offers on average.
 
