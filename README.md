@@ -47,8 +47,9 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 - On average, **Starbucks sends its offers to 38% more males compared to females**. This is despite the fact that **females engage with offers at a 10% higher rate than males**. Offers are viewed at a similar rate for both genders, indicating that females were more likely than males to redeem an offer after viewing it. 
   
   ![GenderOfferEngagement](ReportImages/GenderOfferEngagement.png)
-- Younger members (20s and 30s) engage with offers at the lowest rate out of any age group, especially when the offer is not distributed on social media.
-- Although buy-one-get-one (BOGO) offers are easier and more rewarding than discount offers, discount offers were completed at a 12% higher rate than BOGO offers. However, discount offers went for 2.5 days longer than BOGO offers on average.
+- Younger people complete offers after viewing them at the lowest rate as the 20s, 30s, and 40s age groups have the three lowest completion rates from view at 48.3%, 48.4% and 54.3% respectively. The 20s, 30s, and 40s complete offers at the lowest rate after view independent of if the offer is distributed through the social media or not.
+
+- The year a customer became a member and income both demonstrate no clear impact on customers' engagement with offers.
 
 ## Recommendations
 - Prioritise distributing offers through social media to ensure offers are seen by the maximum number of members and to increase engagement of the younger demographic.
