@@ -60,4 +60,4 @@ Based on the uncovered insights, the following recommendations have been provide
   
 - The biggest increases in offers redeemed occur the same days that offers are released, which is an **average increase of 1192**. Therefore, **one easy way to increase the amount of offers redeemed is to increase the amount of times offers are sent out**.
   
-- BOGO offers increase sales in the short time while discount offers increase sales over time. **BOGO offers should be utilised to boost traffic on expected slow days**, while discount offers should be the default on average days.
+- BOGO offers increase sales in the short term while discount offers increase sales over at a lower but more consitent rate. **BOGO offers should be utilised to boost traffic on expected slow days**, while discount offers should be the default on average days.
