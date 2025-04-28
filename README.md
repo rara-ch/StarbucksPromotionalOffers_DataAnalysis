@@ -16,7 +16,7 @@ The Python code utilised to clean the raw data can be found [here](https://githu
 
 The data source can be found [here](https://www.kaggle.com/datasets/ihormuliar/starbucks-customer-data).
 ## Executive Summary
-Throughout the 30 day period, completions steadily increased, likely because offers were sent out more frequently in the second half of the 30 day period. The variety of offers sent out and the rate that these offers were viewed remained consitent throughout. The most impactful attribute that increased the rate an offer was viewed was whether it was distributed through social media or not. This impactfullness was especially apparent for the company's young adult demographic. Buy One, Get One (BOGO) offers were more successful than discount offers in the short term. However, the completion rate of BOGO offers reduced significantly quicker than Discount offers in the following days. 
+Throughout the 30 day period, completions steadily increased, likely because offers were sent out more frequently in the second half of the 30 day period. The variety of offers sent out and the rate that these offers were viewed remained consitent throughout. The most impactful attribute that increased the rate an offer was viewed was whether it was distributed through social media or not. This impactfullness was especially apparent for the company's young adult demographic. Buy One, Get One (BOGO) offers were more successful than discount offers in the short term although the completion rate of BOGO offers reduced significantly quicker than Discount offers in the following days. However, this is likely due to discount offers having longer aver
 
 In terms of customer demographics, males and younger members engaged with offers at a lower rate than their respective demographic counterparts. The date that a customer became a member and their income level demonstrated no clear connection to how they engaged with offers.
 
@@ -31,9 +31,11 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 
 ![OffersCompletedbyDay](ReportImages/OffersCompletedbyDay.png)
 
-- **Discount offers were completed more than BOGO (buy one, get one) offers by 2180 throughout the 30 day period**. This is likely because although BOGO offers would do better than discount offers in the short term (on release days), the number of BOGO offers completed reduced at a faster rate than discount offers completed in following days.
+- **Discount offers were completed more than BOGO (buy one, get one) offers by 2180 throughout the 30 day period**. This is likely because although BOGO offers would do better than discount offers in the short term (on release days), the number of BOGO offers completed reduced at a faster rate than discount offers completed in following days. However, this trend is due to discount offers having a longer average duration of 8.5 days compared to 6 days. When only the offers with the same duration are considered, BOGO and discount offers perform very similarily throughout the 30 days.
 
 ![OffersCompletedbyOfferType](ReportImages/OffersCompletedbyOfferType.png)
+
+- On average, customers would spend more when redeeming a BOGO offer compared to a discount offer by $1 after the total price has been reduced. However, the company loses an average of $4.38 more when a customer redeems a BOGO offer compared to a discount offer. Standardising for differences in the number of times each offer was redeemed, this led to **BOGO offers losing the company a total of $67,916.72 ($61,691 not standardised) more in reduced prices than discount offers and bringing in only $13,162.44 more (-$28,536 not standardised) than discount offers**.
 
 ### Distribution Effeciency:
 - Offers that were **distributed through social media were viewed at a rate of 94.5%** compared to a **rate of 52.5% when not distributed through social media**.
@@ -60,4 +62,4 @@ Based on the uncovered insights, the following recommendations have been provide
   
 - The biggest increases in offers redeemed occur the same days that offers are released, which is an **average increase of 1192**. Therefore, **one easy way to increase the amount of offers redeemed is to increase the amount of times offers are sent out**.
   
-- BOGO offers increase sales in the short term while discount offers increase sales over at a lower but more consitent rate. **BOGO offers should be utilised to boost traffic on expected slow days**, while discount offers should be the default on average days.
+- With discount and BOGO offers performing very similarily throughout the 30 day period, BOGO offers lose the company significantly more money in price reductions than discount offers. Although BOGO offers tend to increase total amount spent by customers on average, this increase is small. **A financial analyst should investigate how much BOGO offers reduce profits and decide if BOGO offers should remain going forward**.
