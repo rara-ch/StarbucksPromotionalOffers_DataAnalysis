@@ -58,7 +58,7 @@ Below is the Tableau dashboard, which can be found [here](https://public.tableau
 Based on the uncovered insights, the following recommendations have been provided:
 - **Distributing offers through social media is essential**, especially if the company wants to target the young adult demographic. Offers distributed with social media get **viewed at a rate of 94.5% compared to 52.5%**. The offers that get viewed more, get completed more. Hence, to ensure optimisation of future offers, they should be distributed through social media.
   
-- Females redeem offers at a 10% higher rate then males. Therefore, **the marketing team should consider a targeted campaign towards the female demographic to increase the number of female members. This would allow the company's offers to reach more females, who have a greater likelyhood of redeeming an offer**. Alternatively, the marketing team could attempt to increase the redemption rate of offers sent to males to ensure the company's customer base remains balanced. 
+- Females redeem offers at a 10% higher rate than males. Therefore, **the marketing team should consider a targeted campaign towards the female demographic to increase the number of female members. This would allow the company's offers to reach more females, who have a greater likelyhood of redeeming an offer**. Alternatively, the marketing team could attempt to increase the redemption rate of offers sent to males to ensure the company's customer base remains balanced. 
   
 - The biggest increases in offers redeemed occur the same days that offers are released, which is an **average increase of 1192**. Therefore, **one easy way to increase the amount of offers redeemed is to increase the amount of times offers are sent out**.
   
