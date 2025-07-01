@@ -8,7 +8,9 @@ Starbucks is a global coffee shop chain, founded in 1971 in the United States. T
 
 An interactive Tableau Dashboard can be found [here](https://public.tableau.com/views/StarbucksPromotionalOffersDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-The Python code utilised to clean the raw data can be found [here](https://github.com/rara-ch/starbucks_promotional_offers_analysis/blob/main/StarbucksPromotionalOffers_DataCleaning.ipynb).
+The Python code utilised to clean, analyse, and model the data can be found [here](https://github.com/rara-ch/StarbucksPromotionalOffers_DataAnalysis/tree/main/PythonNotebooks).
+
+The SQL code utilised to create views and analyse the data can be found [here](https://github.com/rara-ch/StarbucksPromotionalOffers_DataAnalysis/tree/main/SQLFiles)
 
 ## Data
 ![ERM](data/StarbucksPromotionalOffers_RawERM.png)
